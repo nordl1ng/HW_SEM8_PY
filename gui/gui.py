@@ -1,34 +1,3 @@
-# from logging import root
-# from tkinter import *
-# from tkinter import ttk 
-
-# root = Tk()
-# root.title("Выберите тип файла:")
-# root.geometry('450x50')  
-# root.resizable(False, False)
-
-# def r1():
-#     global btn_r1
-#     r1 = btn_r1['text']
-#     root.destroy()
-#     return r1
-
-# def r2():
-#     global btn_r2
-#     r2 = btn_r2['text']
-#     root.destroy()
-#     return r2
-
-# def r3():
-#     global btn_r3
-#     r1 = btn_r3['text']
-#     root.destroy()
-#     return r3
-
-# btn_r1 = Button(root, text=".txt", width=20, height=3, command=r1)
-# btn_r2 = Button(root, text=".db", width=20, height=3, command = r2)
-# btn_r3 = Button(root, text=".csv", width=20, height=3, command = r3)
-
 def get_fname():
     return input('first name = ')
 
